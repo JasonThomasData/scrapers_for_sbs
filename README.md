@@ -13,11 +13,11 @@ All of this code is procedural in nature. That means there's generally no classe
 
 - indigSoldiersAWN - scrapes the Australian War Memorial website, which has a list of Indigenous soldiers who fought in WWI. Details include birth place, theatre of war, age of soldier, etc.
 
-- OAICaustliiScrape - scrapes the Australian Government law archive to retreive details about OAIC decisions. Used to make this story and dataviz - 
+- OAICaustliiScrape - scrapes the Australian Government law archive to retrieve details about OAIC decisions. Used to make this story and dataviz - 
 
-- rioOlympics - a scraper to retreive the details of Australian athletes attending the Rio Olympic games. I'm preparing this now for a future journalist to use.
+- rioOlympics - a scraper to retrieve the details of Australian athletes attending the Rio Olympic games. I'm preparing this now for a future journalist to use.
 
-- stockCharts - retreives same day trading data on Australian companies and stock indeces. Useful for stories about share market tumbles at end of day trading.
+- stockCharts - retrieves same day trading data on Australian companies and stock indices. Useful for stories about share market tumbles at end of day trading.
 
 ###Requirements
 
@@ -29,7 +29,7 @@ I use virtualenv for my tasks. I recommend you do so too, so that you can isolat
 
 I run my scrapers locally, but another great option is to put your scrapers on Morph. Morph is a free 
 
-I also sometimes run my scrapers from a linux-based vitual private server, automated to run at certain times with the handy scheduling program, ```crontab```. This means I can always scrape anything without turning my computer on.
+I also sometimes run my scrapers from a linux-based virtual private server, automated to run at certain times with the handy scheduling program, ```crontab```. This means I can always scrape anything without turning my computer on.
 
 Morph also provides automated scraping, but those are limited to one per day for each scraper (I think).
 
@@ -56,7 +56,7 @@ I do this with the standard module, time:
 
 	time.sleep(3) #wait for three seconds
 
-Finally, I think if you're going to scrape content, consier putting it online where others can get it. This may reduce the need for others to scrape content. You can do this by simply making a Gist on Github.
+Finally, I think if you're going to scrape content, consider putting it online where others can get it. This may reduce the need for others to scrape content. You can do this by simply making a Gist on Github.
 
 Another, possibly better, option is to put yor scrapers on Morph where anyone can use them.
 
